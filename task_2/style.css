@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  padding: 50px;
+}
+
+.play_btn {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.play_btn:hover {
+  transform: scale(1.05);
+}
+
+.play_btn .svg-play {
+  display: block;
+}
+
+.play_btn .svg-pause {
+  display: none;
+}
+
+.play_btn.play_btn--toggle .svg-play {
+  display: none;
+}
+
+.play_btn.play_btn--toggle .svg-pause {
+  display: block;
+}
+
+.play_btn svg {
+  width: 100%;
+  height: 100%;
+}
